@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Rubik+Moonrocks&display=swap');
+body{
+	background-color: black;
+}
+p{
+	color: green;
+	background-color: red;
+	font-size: 50px;
+	text-align: center;
+	font-family: Kablammo, cursive;
+}
+table{
+	color: red;
+	border: double 5px violet;
+	width: 50%;
+	font-size: 24px;
+	border-collapse: separate;
+	margin: auto;
+}
+th,td{
+	border: solid 2px yellowgreen;
+	width: 25%;
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAC/rainbow.gif);
+	color: black;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+tr:nth-child(odd){
+	background-color: lightsalmon;
+}
+tr:nth-child(even){
+	background-color: lightskyblue;
+}
+.sc{
+	border: dashed 3px red;
+	text-align: right;
+	vertical-align: bottom;
+}
+caption{
+	font-size: 50px;
+	background: linear-gradient(to left, red, orange, yellow, green, blue, indigo,purple);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: silver;
+}

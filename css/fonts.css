@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+
+body{
+	background-image: url(https://media.tenor.com/sfp8nf9UrZcAAAAM/uwu-cat.gif);
+	background-size: 200px;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+p{
+	font-size: 50px;
+	color: orange;
+}
+.p1{
+	text-align: center;
+	background-color: lightpink;
+}
+.p2{
+	font-family: Times, "Times New Roman", Georgia, serif;
+}
+.p3{
+	font-family: sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+text-underline-position: under;
+text-decoration-color: red;
+text-decoration-style: dashed;
+}
+.p4{
+	font-family: monospace;
+	font-style: italic;
+	text-shadow: 2px -2px green, 4px -4px brown;
+}
+.p5{
+	font-family: cursive;
+}
+.p6{
+font-family: 'Lobster', cursive;
+text-shadow: 0px 0px 10px green;
+}
+.p7{
+font-family: 'Rubik Dirt', cursive;
+text-shadow: 2px -2px green;
+}
+.p8{
+font-family: 'Rubik Moonrocks', cursive;
+text-decoration: underline;
+text-underline-position: under;
+text-decoration-color: red;
+text-decoration-style: wavy;
+}
+.s1{
+	font-size: 2em;
+	color: blue;
+	font-family: 'Rubik Dirt', cursive;
+	text-shadow: 0px 0px 10px green;
+}

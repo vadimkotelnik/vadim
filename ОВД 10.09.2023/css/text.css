@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+h1{
+	font-weight: 400;
+	font-family: 'Ruslan Display', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	margin: 12px;
+	line-height: 24px;
+	word-spacing: 5px;
+}
+h2{
+	text-align: left;
+}
+.im1{
+	float: right;
+	margin: 20px;
+	width: 300px;
+}
+.f1{
+	float: right;
+	border: thin #c0c0c0 solid;
+	padding: 5px;
+	width: 450px;
+}
+.f1 img{
+	border: double 1px grey;
+}
+.a1{
+	text-decoration: none;
+}
+.a1:hover{
+	text-decoration: underline;
+}
+.a1:visited{
+	color: green;
+}
+.a1:active{
+	color: orange;
+	background-color: violet;
+	border: dotted 1px red;
+}
+ .a2:hover{
+	text-decoration: underline;
+}
+.a2{
+	text-decoration: none;
+	font-size: 24px;
+}
+ol{
+	list-style: none;
+}
+.b1{
+	font-size: 24px;
+	font-family: 'Ruslan Display', sans-serif;
+	padding: 10px;
+	padding-top: 15px;
+	background-color: blue;
+	color: yellow;
+
+}
+.b1:hover{
+	background-color: yellow;
+	color: blue;
+	font-weight: 700;
+	text-shadow: 0 0 5px orange;
+	box-shadow: 5px -5px blue;
+}
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 0);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 24px;
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:24px;
+	border:4px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffff00;
+	font-family:Arial;
+	font-size:24px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	font-weight: 700;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}

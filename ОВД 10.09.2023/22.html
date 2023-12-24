@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   
+  </style>
+  <title></title>
+</head>
+<body>
+  <canvas id="myCanvas" width="1000" height="1000" style="border:5px solid rgb(12, 15, 207);"></canvas>
+
+  <script>
+    // Генерю чісло
+    function Random(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    function drawTriangle(cxt, canvasWidth, canvasHeight) {
+      const x1 = Random(0, canvasWidth);
+      const y1 = Random(0, canvasHeight);
+      const x2 = Random(0, canvasWidth);
+      const y2 = Random(0, canvasHeight);
+      const x3 = Random(0, canvasWidth);
+      const y3 = Random(0, canvasHeight);
+
+      const colorCxt = `rgb(${Math.floor(Random(0, 256))}, ${Math.floor(Random(0, 256))}, ${Math.floor(Random(0, 256))})`;
+      cxt.fillStyle = colorCxt;
+      cxt.beginPath();
+      cxt.moveTo(x1, y1);
+      cxt.lineTo(x2, y2);
+      cxt.lineTo(x3, y3);
+      cxt.closePath();
+      cxt.fill();
+    }
+
+    let canvas = document.getElementById('myCanvas');
+    let cxt = canvas.getContext('2d');
+
+    for (let i = 0; i < 10; i++) {
+      drawTriangle(cxt, canvas.width, canvas.height);
+    }
+  </script>
+</body>
+</html>

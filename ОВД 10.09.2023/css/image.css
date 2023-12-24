@@ -1,0 +1,40 @@
+body{
+	background-color: lightcyan;
+	background-image: url(https://lh5.googleusercontent.com/-d9lVoZNOR6SOXRyTwagthP16VTMGftuqnOyKn9VRncA5nqyaTp1DfTEqlArsUuVENGUKugCgZxbGOlMTSZDommn9Z63vmO5d0BxLQj18oCl9y8EpBjJ24yqjY021t9hQIFg0tyf);
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: 100% 100%;
+background-attachment: fixed;
+}
+p{
+	font-size: 1in;
+	color: orange;
+	background-image: url(https://media.istockphoto.com/id/1413647299/vector/sunny-autumn-background-with-leaves-and-highlights.jpg?s=612x612&w=0&k=20&c=zpElduPkLcmAHPlB2q1C0tA-Xg0m9qP2dDMigIJDD6o=);
+background-size: cover;
+}
+div{
+	width: 500px;
+	height: 500px;
+	margin: 20px;
+}
+.d1{
+background-image: url(https://i0.wp.com/www.flutterbeads.com/wp-content/uploads/2021/11/set-background-image-flutter-hero.jpeg?fit=1920%2C1280&ssl=1);
+background-size: cover;
+}
+.img1{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 20px -20px 50px purple;
+}
+.img2{
+	width: 500px;
+	border: ridge 20px fuchsia;
+}
+.d2{
+	background-image: url(../img/images.jpg);
+	background-size: cover;
+	border: solid 50px;
+	border-image: linear-gradient(purple,fuchsia,pink) 30;
+}

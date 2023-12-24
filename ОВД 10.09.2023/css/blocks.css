@@ -1,0 +1,45 @@
+body{
+	background-color: lemonchiffon;
+}
+p{
+	background-color: aliceblue;
+	color: purple;
+	font-size: 50px;
+	display: inline;
+}
+span{
+	border: dashed 2px red;
+	display: inline-block;
+}
+#first{
+	background-color: lightsalmon;
+	width: 500px;
+	height:500px;
+	border-style: dotted dashed;
+	border-color: blue purple;
+	border-width: 30px;
+	font-size: 50px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 20px;
+}
+#second{
+	background-color: lightpink;
+	width: 600px;
+	height:800px;
+	border-image: linear-gradient(yellow, blue, orange) 30;
+	border-width: 30px;
+	border-style: solid;
+	margin: 50px;
+}
+#third, #fourth{
+	background-color: lightcyan;
+	width: 700px;
+	height:200px;
+	margin: 50px;
+	padding: 20px;
+	border-image: linear-gradient(pink, hotpink, purple) 30;
+	border-width: 30px;
+	border-style: solid;
+}
